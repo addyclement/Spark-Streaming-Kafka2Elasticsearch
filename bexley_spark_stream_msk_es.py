@@ -189,5 +189,3 @@ print("status :", stream_df_04.isStreaming)
 stream_df_05 = stream_df_04.writeStream.foreachBatch(foreach_batch).queryName("bexley-stream").start()
 
 stream_df_05.awaitTermination()
-
-stream_df_05.awaitTermination()
