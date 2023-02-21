@@ -1,4 +1,4 @@
-# PySpark Code to consume data stream from kafka cluste, transform and persist to ES.
+# PySpark Code to consume data stream from kafka cluster, transform and persist to ES.
 # Pre-requisites : kafka and mysql jar in spark jar directory
 # Infrastructure : Amazon MSK, Amazon Opensearch, Spark cluster, 
 # Author : Addy Clement
