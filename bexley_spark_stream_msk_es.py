@@ -65,8 +65,6 @@ spark = SparkSession \
 
 spark.sparkContext.setLogLevel("ERROR")
 
-#create data frame from  NUS data sets
-
 # Construct a streaming DataFrame that reads from topic
 # default for startingOffsets is "latest", but "earliest" allows rewind for missed alerts 
 
