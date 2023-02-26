@@ -47,7 +47,7 @@ rds_password = rds_secrets['password']
 rds_endpoint = "jdbc:mysql://ecomm-db-replica-01.xxxxxxxx.eu-west-2.rds.amazonaws.com:3306/ecomm_salesdb"
 
 
-kafka_topic_name = "elk-stream-01"
+kafka_topic_name = "bxl-stream-01"
 kafka_bootstrap_servers = "b-2.shoppingmsk01.xxxxxx.xx.kafka.eu-west-2.amazonaws.com:9092,b-1.shoppingmsk01.xxxxxx.xx.kafka.eu-west-2.amazonaws.com:9092"
 
 es_domain = "https://search-bexley-shopping-xxxxxxxxxxxxxxxxx.eu-west-2.es.amazonaws.com"
