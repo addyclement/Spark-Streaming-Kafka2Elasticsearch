@@ -2,7 +2,9 @@
 # Pre-requisites : kafka and mysql jar in spark jar directory
 # Infrastructure : Amazon MSK, Amazon Opensearch, Spark cluster, 
 # Author : Addy Clement
-# V1 : Sept 16th 2022
+# V1 : Aug 11th, 2020
+# V2 Major Revision : Sept 16th 2022
+
 
 from pyspark import SparkConf, SparkContext, sql
 from pyspark.sql.functions import from_utc_timestamp
