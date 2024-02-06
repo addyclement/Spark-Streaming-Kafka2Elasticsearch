@@ -37,9 +37,5 @@ def get_secret_from_sm(secret_name, region_name="eu-west-2"):
     # Your code goes here.
     return secret
 
-"""
-elastic/ eMNrBARO1SM39DALD4iixai0
 
-api key : essu_ZGpsZk1FdHZkMEoxUzI1SFJESlRjMHRDVVZVNk5UbFBVMFppTmxsVExYbFFUa1Z6TVZaVVVERnZVUT09AAAAAO+7Te8=
-"""
 
